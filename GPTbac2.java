@@ -7,7 +7,7 @@ public class GPTBac2 {
 		Long a=s.nextLong();
 		Long b=s.nextLong();
 		Long c=s.nextLong();
-		if(a=0) {
+		if(a==0) {
 			System.out.println("Khong phai la phuong trinh bac 2!!!");
 		}
 		else {
