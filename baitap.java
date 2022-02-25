@@ -6,9 +6,9 @@ public class baitap {
 	public void cau1() {
 		System.out.println("Nhap a: (Bytes)");
 		Scanner scan = new Scanner(System.in);
-		Byte a= nextBytes();
+		Byte a=scan.nextBytes();
 		System.out.println("Nhap b: (Bytes)");
-		Byte b= nextBytes();
+		Byte b= scan.nextBytes();
 		System.out.println("a + b = "+ a+b);
 		System.out.println("a - b = "+ (a-b));
 		System.out.println("a * b = "+ a*b);
@@ -25,9 +25,9 @@ public class baitap {
 	public void cau2() {
 		System.out.println("Nhap a: (int)");
 		Scanner scan = new Scanner(System.in);
-		int a= nextInt();
+		int a= scan.nextInt();
 		System.out.println("Nhap b: (int)");
-		int b= nextInt();
+		int b= scan.nextInt();
 		System.out.println("a + b = "+ a+b);
 		System.out.println("a - b = "+ (a-b));
 		System.out.println("a * b = "+ a*b);
@@ -44,9 +44,9 @@ public class baitap {
 	public void cau3() {
 		System.out.println("Nhap a: (double)");
 		Scanner scan = new Scanner(System.in);
-		Double a= nextDouble();
+		Double a= scan.nextDouble();
 		System.out.println("Nhap b: (double)");
-		Double b= nextDouble();
+		Double b= scan.nextDouble();
 		System.out.println("a + b = "+ a+b);
 		System.out.println("a - b = "+ (a-b));
 		System.out.println("a * b = "+ a*b);
